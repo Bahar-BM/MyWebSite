@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--Make the page responsive -->
+        <meta name="viewport" content="width=device-width">
+        <!--The next three META tags are for the SEO objective -->
+        <meta name="description" content="Bahareh Bafandeh Mayvan">
+        <meta name="keywords" content="bahareh bafandeh, personal website, web design">
+        <meta name="author" content="Bahareh Bafandeh">
+        <title>Bahareh Bafandeh Mayvan | Honors</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Bahareh</span> Bafandeh Mayvan</h1>
+                </div>
+                <!--"nav" tag is strictly for HTML5 -->
+                <nav>
+                    <!--"ul" tag is for unordered list -->
+                    <ul>
+                        <!--"a" tag is for the link -->
+                        <li> <a href="index.html"> Home</a></li>
+                        <li> <a href="about.html"> About Me</a></li>
+                       <!-- <li> <a href="projects.html"> Projects</a></li>-->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="main">
+            <div class="container">
+                <!--HTML5 semantic tag -->
+                <article id="main-col">
+                    <h1 class="page-title">Honors and Awards</h1>
+                    <ul id="projects">
+                        <li>
+                            <h3>Iran's National Elites Foundation Award</h3>
+                            <p>
+                                Recipient of academic award for graduate studies (June 2018)
+                            </p>
+                        </li>
+                        <li>
+                            <h3>FUM's Exceptional Talent Award 2018</h3>
+                            <p>
+                                SHAHAB’s award packages (2018)
+                            </p>
+                        </li>
+                        <li>
+                            <h3>Iran's National Elites Foundation Award</h3>
+                            <p>
+                                Recipient of grant for graduate studies (September 2017)
+                            </p>
+                        </li>
+                        <li>
+                            <h3>FUM's Exceptional Talent Award 2017</h3>
+                            <p>
+                                SHAHAB’s award packages (2017)
+                            </p>
+                        </li>
+                        <li>
+                            <h3>FUM's Exceptional Talent Award 2016</h3>
+                            <p>
+                                SHAHAB’s award packages (2016)
+                            </p>
+                        </li>
+                        <li>
+                            <h3>University of Tehran's Top Graduates Award</h3>
+                            <p>
+                                University of Tehran (March 2015)
+                            </p>
+                        </li>
+                        <li>
+                            <h3>FUM's Exceptional Talent Award 2014</h3>
+                            <p>
+                                SHAHAB’s award packages (2014)
+                            </p>
+                        </li>
+                        <li>
+                            <h3>Honored Graduate Award</h3>
+                            <p>
+                                Ranked #1 among all students at the Faculty of Engineering Science, University of Tehran, Iran (2013)
+                            </p>
+                        </li>
+                        <li>
+                            <h3>University of Tehran's Algorithms and Computation Prize</h3>
+                            <p>
+                                University of Tehran, Iran (2013)
+                            </p>
+                        </li>
+                    </ul>
+                </article> 
+                <!--HTML5 semantic tag -->
+                <aside id="sidebar">
+                    <div class="dark">
+                    <h3>Send Me a Message</h3>
+                        <form onsubmit="return Validate()" name="vform" class="quote">
+                            <div id="username_div">
+                                <label>Name</label><br>
+                                <input type="text" name="username" placeholder="Name">
+                                <div id="name_error"></div>
+                            </div>
+                            <div id="email_div">
+                                <label>Email</label><br>
+                                <input type="email" name="email" placeholder="Email Address">
+                                <div id="email_error"></div>
+                            </div>
+                            <div id="message_div">
+                                <label>Message</label><br>
+                                <textarea name="message" placeholder="Message"></textarea>
+                                <div id="message_error"></div>
+                            </div>
+                            <button class="button_1" type="submit">Send</button>
+                        </form>
+                        <script src="validation.js">                      
+                        </script>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2019 Bahareh Bafandeh</p>
+        </footer>
+    </body>
+</html>

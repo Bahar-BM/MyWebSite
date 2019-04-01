@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--Make the page responsive -->
+        <meta name="viewport" content="width=device-width">
+        <!--The next three META tags are for the SEO objective -->
+        <meta name="description" content="Bahareh Bafandeh Mayvan">
+        <meta name="keywords" content="bahareh bafandeh, personal website, web design">
+        <meta name="author" content="Bahareh Bafandeh">
+        <title>Bahareh Bafandeh Mayvan | Welcome</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <!--To keep the header content in the middle and avoid sticking to borders-->
+            <!--The difference between "class" and "id" is that unlike "class", "id" is usually used for unique purposes such as "showcase"-->
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Bahareh</span> Bafandeh Mayvan</h1>
+                </div>
+                <!--"nav" tag is strictly for HTML5 -->
+                <nav>
+                    <!--"ul" tag is for unordered list -->
+                    <ul>
+                        <!--"a" tag is for the link -->
+                        <li class="current"> <a href="index.html"> Home</a></li>
+                        <li> <a href="about.html"> About Me</a></li>
+                       <!-- <li> <a href="projects.html"> Projects</a></li>-->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--For the showcase! -->
+        <section id="showcase">
+            <div id="slider">
+	           <div id="slider-wrapper">
+		          <div class="slide">
+			         <img src="./img/program1.png" alt="" />
+			         <p class="caption">
+                         Kent Beck: “I'm not a great programmer; I'm just a good programmer with great habits.”
+                    </p>
+		          </div>
+		          <div class="slide">
+			         <img src="./img/program2.png" alt="" />
+			         <p class="caption">
+                         Larry Niven: “That's the thing about people who think they hate computers. What they really hate is lousy programmers.” </p>
+		          </div>
+		          <div class="slide">
+			         <img src="./img/program3.png" alt="" />
+			         <p class="caption">
+                         John Woods: “Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live”</p>
+		          </div>
+		          <div class="slide">
+			         <img src="./img/program4.png" alt="" />
+			         <p class="caption">
+                        Martin Fowler: “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”  
+                     </p>
+		          </div>
+		          <div class="slide">
+			         <img src="./img/program5.png" alt="" />
+			         <p class="caption">
+                        Robert C. Martin: “Truth can only be found in one place: the code.”
+                     </p>
+		          </div>
+	           </div>
+	           <div id="slider-nav">
+		          <a href="#" data-slide="0">1</a>
+		          <a href="#" data-slide="1">2</a>
+		          <a href="#" data-slide="2">3</a>
+		          <a href="#" data-slide="3">4</a>
+		          <a href="#" data-slide="4">5</a>
+	           </div>
+            </div>	
+        </section>         
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <a href="./Docs/CV-Bahareh.pdf"><img src="./img/icon1_1.png" ></a>
+                    <h3><a href="./Docs/CV-Bahareh.pdf" download="bafandeh_CV"> CV</a></h3>
+                    <!--<p>Cras id aliquam nunc. Mauris justo nunc, mattis ut semper ac, tristique non erat</p>-->
+                </div>
+                <div class="box">
+                    <a href="project.html"><img src="./img/icon2.png"></a>
+                    <h3><a href="project.html"> Projects</a></h3>
+                </div>
+                <div class="box">
+                    <a href="honors.html"><img src="./img/honors.png"></a>
+                    <h3><a href="honors.html"> Honors and awards</a></h3>
+                </div>
+
+                <div class="box">
+                    <a href="publications.html"><img src="./img/icon4.png"></a>
+                    <h3><a href="publications.html"> Publications</a></h3>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright &copy; 2019 Bahareh Bafandeh</p>
+        </footer>
+    </body>
+</html>
